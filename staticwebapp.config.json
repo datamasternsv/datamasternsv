@@ -1,6 +1,11 @@
 {
   "routes": [
     {
+      "route": "/Metodologia%20Análisis.pbix",
+      "serve": ".",
+      "statusCode": 200
+    },
+    {
       "route": "/*",
       "serve": "/index.html",
       "statusCode": 200
